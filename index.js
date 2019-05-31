@@ -24,3 +24,11 @@ function johnLennonFacts(facts) {
   }
   return factsExclamation
 }
+
+function iLoveTheBeatles(n) {
+  r = []
+  do {
+    r.push("I love the Beatles!");
+    n++
+  } while (n < 15);
+}
